@@ -1,0 +1,35 @@
+<html>
+<head>
+<style type="text/css">
+body{border-color:"Black";border-width:3p;background-image:url("Book.jpeg");background-size:cover}
+</style>
+</head>
+<?php
+session_start();
+?>
+<body>
+<form method="post"  action="Project1b.php">
+<center>
+<font size="27">SIGN IN</font><br><br>
+<font size="19">PERSONAL DETAILS:</font> <br><br>
+<font size="6.5">NAME:<sup><font color="red">*</font></sup></font><br>
+<input type="text" name="name" style="height:50px; width:200px"><br><br><br>
+<font size="6.5">ADDRESS:<sup><font color="red">*</font></sup></font><br>
+<textarea name="address" rows=3 cols=20></textarea><br><br><br>
+<font size="6.5">PHONE NUMBER:<sup><font color="red">*</font></sup></font><br>
+<input type="text" name="phno" style="height:50px; width:200px"><br><br><br>
+<font size="6.5"> AGE:<sup><font color="red">*</font></sup></font><br>
+<input type="text" name="age" style="height:50px; width:200px"><br><br><br>
+<font size="6.5">EMAIL ID:<sup><font color="red">*</font></sup></font><br>
+<input type="text" name="email" style="height:50px; width:200px"><br><br><br>
+<font size="6.5">GENDER:<sup><font color="red">*</font></sup></font><br><br>
+<font size="6.5">
+<input type="radio" name="gender" value="MALE" style="height:20px; width:20px">MALE
+<input type="radio" name="gender" value="FEMALE" style="height:20px; width:20px">FEMALE
+</font>
+<br><br><br>
+<input type="submit" name="submit" value="SUBMIT" style="height:50px; width:200px">
+</center>
+</form>
+</body>
+</html>
